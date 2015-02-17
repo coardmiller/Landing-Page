@@ -10,6 +10,27 @@ a {
   transition: all 0.5s ease;
 }
 
+/* Content Styles
+   ========================================================================== */
+
+.container {
+  display: table;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.content {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
 /* H2 Styles
    ========================================================================== */
 
@@ -31,7 +52,6 @@ h3 {
   font-weight: 300;
   color: #a2a2a2;
   padding: 0 0 15px 0;
-  margin: 0 0 45px 0 !important;
   border-bottom: 1px dotted #a2a2a2;
 }
 
@@ -49,11 +69,6 @@ h3 a:hover {
 /* About Styles
    ========================================================================== */
 
-#about {
-  margin: 0;
-  margin: 0 0 18px 0 !important;
-}
-
 #about p {
   font-family: "Bookmania", serif;
   font-weight: 400;
@@ -69,7 +84,6 @@ h3 a:hover {
   font-size: 300%;
   position: absolute;
   line-height: .75em;
-  /*height: 0px;*/
   padding: .18em .1em 0 0;
   font-family: "Bookmania", "Georgia", "Times New Roman", Times, serif;
   font-weight: 700;
@@ -92,7 +106,7 @@ h3 a:hover {
   padding: 25px 0 15px 0;
   margin: 0 0 0 0;
   border-top: 1px dotted #a2a2a2;
-
+  width: 100%;
 }
 
 /* Footer Styles
