@@ -1,0 +1,117 @@
+/* Body Styles
+   ========================================================================== */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+/* H2 Styles
+   ========================================================================== */
+
+h2 {
+  font-family: "Bookmania", serif;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1em;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+/* H3 Styles
+   ========================================================================== */
+
+h3 {
+  font-family: "Nimbus Sans", sans-serif;
+  font-size: 24px;
+  color: #a2a2a2;
+  padding: 0 0 15px 0;
+  margin: 0 0 45px 0 !important;
+  border-bottom: 1px dotted #a2a2a2;
+}
+
+h3 a {
+  font-family: "Nimbus Sans", sans-serif;
+  font-size: 24px;
+  color: #a2a2a2;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  color: #d93d26;
+}
+
+/* About Styles
+   ========================================================================== */
+
+#about {
+  margin: 0;
+  margin: 0 0 18px 0 !important;
+}
+
+#about p {
+  font-family: "Bookmania", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.591em;
+  letter-spacing: 0.015em;
+  color: #5b5b5b;
+}
+
+#about p:first-child:first-letter {
+  float: left;
+  color: #d93d26;
+  font-size: 300%;
+  position: absolute;
+  line-height: .883em;
+  /*height: 0px;*/
+  padding: .18em .1em 0 0;
+  font-family: "Bookmania", "Georgia", "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+
+#about a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #5b5b5b;
+  transition: all 0.5s ease;
+}
+
+#about a:hover {
+  text-decoration: none;
+  color: #d93d26;
+  transition: all 0.5s ease;
+}
+
+#footer {
+  clear: both;
+  float: left;
+  padding: 25px 0 15px 0;
+  margin: 0 0 0 0;
+  border-top: 1px dotted #a2a2a2;
+
+}
+
+/* Footer Styles
+   ========================================================================== */
+
+#footer a {
+  margin: 0 15px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.25em;
+}
+#footer img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#footer p {
+  float: right;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Bookmania", serif;
+  font-weight: 400;
+  color: #bbbbbb;
+}
