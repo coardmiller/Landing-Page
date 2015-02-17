@@ -30,7 +30,7 @@ h3 {
   font-size: 24px;
   color: #a2a2a2;
   padding: 0 0 15px 0;
-  margin: 0 0 45px 0 !important;
+  /* margin: 0 0 45px 0 !important; */
   border-bottom: 1px dotted #a2a2a2;
 }
 
@@ -48,11 +48,6 @@ h3 a:hover {
 /* About Styles
    ========================================================================== */
 
-#about {
-  margin: 0;
-  margin: 0 0 18px 0 !important;
-}
-
 #about p {
   font-family: "Bookmania", serif;
   font-weight: 400;
@@ -68,7 +63,6 @@ h3 a:hover {
   font-size: 300%;
   position: absolute;
   line-height: .75em;
-  /*height: 0px;*/
   padding: .18em .1em 0 0;
   font-family: "Bookmania", "Georgia", "Times New Roman", Times, serif;
   font-weight: 700;
@@ -85,13 +79,18 @@ h3 a:hover {
   color: #d93d26;
 }
 
+.container {
+  width: 50%;
+  margin: 25% auto 0;
+}
+
 #footer {
   clear: both;
   float: left;
   padding: 25px 0 15px 0;
   margin: 0 0 0 0;
   border-top: 1px dotted #a2a2a2;
-
+  width: 100%;
 }
 
 /* Footer Styles
